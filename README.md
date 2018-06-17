@@ -3,7 +3,7 @@ opencv3_0+gsl1_8 test and environment
 
 Notice:
 system  variate {
-
+D:\Program Files\Anaconda2;D:\Program Files\Anaconda2\Library\mingw-w64\bin;D:\Program Files\Anaconda2\Library\usr\bin;D:\Program Files\Anaconda2\Library\bin;D:\Program Files\Anaconda2\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;D:\Program Files\GnuWin32\bin;D:\Program Files\opencv\build\x86\vc12\bin;D:\ffmpeg\bin;
 
 
 
