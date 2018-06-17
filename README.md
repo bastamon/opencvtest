@@ -27,7 +27,7 @@ D:\ffmpeg\bin;/*ffmpeg*/
 
 
 
-project variate required to reference with file"opencvtest.vcxproj",and you still need to change to your own diretory of opencv3.0 or gsl1.8
+project variate required to reference with file"opencvtest.vcxproj",and you still need to change to your own diretory of opencv3.0 or gsl1.8. I install opencv3_0 under"D:\Program Files\" and gsl1_8 under "D:\Program Files\"
 
 //begin with line42
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
