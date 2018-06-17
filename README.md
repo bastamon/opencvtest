@@ -24,7 +24,7 @@ D:\Program Files\opencv\build\x86\vc12\bin;/*opencv3_0*/
 D:\ffmpeg\bin;/*ffmpeg*/
 }
 
-project variate required to reference with file"opencvtest.vcxproj"
+project variate required to reference with file"opencvtest.vcxproj",you need to change to your own diretory of opencv3.0 or gsl1.8
 //begin with line42
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
