@@ -1,7 +1,8 @@
 # opencvtest
 opencv3_0+gsl1_8 test and environment
 
-####Notice:
+#### Notice:
+```
 system  variate {
 D:\Program Files\Anaconda2;
 D:\Program Files\Anaconda2\Library\mingw-w64\bin;
@@ -24,12 +25,13 @@ D:\Program Files\GnuWin32\bin;/*gsl1_8*/
 D:\Program Files\opencv\build\x86\vc12\bin;/*opencv3_0*/
 D:\ffmpeg\bin;/*ffmpeg*/
 }
+```
 
 
+### project variate required to reference with file"opencvtest.vcxproj",and you still need to change to your own diretory of opencv3.0 or gsl1.8. I install opencv3_0 under "D:\Program Files\" and gsl1_8 under "D:\Program Files\",so you need to be awared of that.
 
-###project variate required to reference with file"opencvtest.vcxproj",and you still need to change to your own diretory of opencv3.0 or gsl1.8. I install opencv3_0 under "D:\Program Files\" and gsl1_8 under "D:\Program Files\",so you need to be awared of that.
-
-#//begin with line42
+# //begin with line42
+```
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;D:\Program Files\opencv\build\include\opencv2;D:\Program Files\GnuWin32\include;D:\Program Files\GnuWin32\include\gsl;$(IncludePath)</IncludePath>
@@ -51,3 +53,4 @@ D:\ffmpeg\bin;/*ffmpeg*/
 
 #//line83
       <AdditionalDependencies>opencv_ts300.lib;opencv_world300.lib;libgsl.lib;libgslcblas.lib;%(AdditionalDependencies)</AdditionalDependencies>
+```
